@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ESP32 PCA9685 XY Controller</title>
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    .pad{width:320px;height:320px;background:#eee;border:1px solid #bbb;touch-action:none;position:relative}
+    .dot{position:absolute;width:18px;height:18px;background:#007bff;border-radius:50%;transform:translate(-50%,-50%)}
+    .controls{margin-top:10px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h3>XY Spin Controller</h3>
+    Channel: <input id="ch" type="number" min="0" max="15" value="0" class="small">
+    <div class="pad" id="pad"><div class="dot" id="dot" style="left:50%;top:50%"></div></div>
+    <div class="controls">
+      <button id="stopBtn">Stop</button>
+      <button id="centerBtn">Center</button>
+      <button id="leftBtn">Spin Left</button>
+      <button id="rightBtn">Spin Right</button>
+      <div>Spin: <span id="spinVal">0</span></div>
+      <pre id="status">status...</pre>
+    </div>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>
