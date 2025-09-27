@@ -77,6 +77,3 @@ Please make sure to update tests as appropriate and follow the code style used i
 ## Issues & Feedback
 
 If you find a bug or have a feature request, please open an issue on GitHub. You can also use the Discussions tab for questions and ideas.
-
----
-MIT License
