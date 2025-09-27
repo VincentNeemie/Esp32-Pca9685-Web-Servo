@@ -1,0 +1,11 @@
+{
+  "C_Cpp.default.configurationProvider": "ms-vscode.cpptools",
+  "files.exclude": {
+    "**/.pio": true,
+    "**/.platformio": true
+  },
+  "editor.formatOnSave": false,
+  "files.associations": {
+    "cmath": "cpp"
+  }
+}
